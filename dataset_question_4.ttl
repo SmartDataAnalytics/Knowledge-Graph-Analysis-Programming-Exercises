@@ -1,0 +1,39 @@
+@prefix ex:<http://example.org/movies/> .
+@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:<http://xmlns.com/foaf/0.1/> .
+@prefix xsd:<http://www.w3.org/2001/XMLSchema#> .
+ex:m1 rdf:type ex:Movie ;
+ex:genre ex:Drama;
+ex:year "2006"^^xsd:gYear ;
+rdfs:label "Marie Antoinette " ;
+ex:country ex:USA;
+ex:director ex:p1 ;
+ex:actor ex:p2 .
+ex:p1 rdf:type ex:Director ;
+foaf:familyName "Coppola" ;
+foaf:givenName "Sofia " ;
+ex:birthYear "1971"^^xsd:gYear .
+ex:p2 rdf:type ex:Actor ;
+foaf:familyName "Dunst" ;
+foaf:givenName "Kirsten" ;
+ex:birthYear "1982"^^xsd:gYear .
+ex:p5 rdf:type  ex:Actor;
+foaf:familyName "De Niro" ;
+foaf:givenName "Robert" ;
+ex:birthYear "1943"^^xsd:gYear .
+ex:m2 rdf:type ex:Movie ;
+ex:genre ex:Crime ;
+ex:year  "1995"^^xsd:gYear ;
+rdfs:label "Heat" ;
+ex:country ex:USA;
+ex:director ex:p3 ;
+ex:actor ex:p4 , ex:p5 .
+ex:p3 rdf:type  ex:Director ;
+foaf:familyName "Mann" ;
+foaf:givenName "Michael" ;
+ex:birthYear "1943"^^xsd:gYear .
+ex:p4  rdf:type ex:Actor ;
+foaf:familyName "Pacino" ;
+foaf:givenName "Al " ;
+ex:birthYear "1940"^^xsd:gYear.
