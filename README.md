@@ -4,7 +4,7 @@ This is a repository, which allows interested students and researchers to perfor
 
 ## Knowledge Graphs - Things, not Strings!
 
-Knowledge graphs represent knowledge in terms of **entities and their relationships** as shown in the figure below. The nodes of a knowledge graph are the objects which are relevant in your domain. The edges are the connections between those objects. Since knowledge graphs are intuitive and enjoy a number of benefits, they became very popular over the past decade. Some of the most well known knowledge graphs are the Google Knowledge Graph, [DBpedia](http://dbpedia.org), Wikidata, YAGO, the Facebook Social Graph, Satori (Microsoft Knowledge Graph) and the LinkedIn Knowledge Graph.
+Knowledge graphs represent knowledge in terms of *entities and their relationships* as shown in the figure below. The nodes of a knowledge graph are the objects which are relevant in your domain and have a unique identifier (so they represent real world "things" rather than just a string label). The edges are the connections between those objects. Since knowledge graphs are intuitive and enjoy a number of benefits, they became very popular over the past decade. Some of the most well known knowledge graphs are the Google Knowledge Graph (a major component of Google Search and other services), [DBpedia](http://dbpedia.org) (a knowledge graph extracted from Wikipedia), Wikidata, YAGO, the Facebook Social Graph, Satori (Microsoft Knowledge Graph) and the LinkedIn Knowledge Graph.
 
 Many knowledge graphs are very large and their creation is crowdsourced and/or they are generated from various sources. Relational learning methods can then be employed on knowledge graphs for a variety of tasks, e.g. *link prediction* tries to find missing edges in knowledge graphs (e.g. suggesting friends via your social graph is about predicting missing edges to other persons), *link correction* is about finding incorrect edges, *entity resolution* is about mapping entities in text to knowledge graphs and *clustering* groups entities based on their similarity. In the exercises, you will learn about relational learning methods for knowledge graphs.
 
@@ -13,6 +13,19 @@ The two knowledge representation formalisms for knowledge graphs, which are used
 ![knowledge graph example](https://raw.githubusercontent.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/master/Material/kg-example.png "knowledge graph example")
 
 ## Exercise Overview
+
+Each individual exercise contains a description of tasks and background. We first start with the formalisms to create an query knowledge graphs and then proceed with relational learning methods.
+
+* [Exercise 1:  RDF Databases](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_01)
+* Exercise 2: Property Graph Databases
+* Exercise 3: Introduction to Statistical Relational Learning (SRL)
+* Exercise 4: Tensors and Tensor Factorisation Techniques
+* Exercise 5: Alternating Least Squares (ALS) and Stochastic Gradient Descent (SGD)
+* Exercise 6: Introduction to Neural Networks
+* Exercise 7: Neural Networks for Knowledge Graph Analysis
+* Exercise 8: Latent Distance and Graph Feature Models	
+* Exercise 9: Markov Logic Networks
+* Exercise 10: Training SRL models
 
 ## Contributing and Feedback
 
