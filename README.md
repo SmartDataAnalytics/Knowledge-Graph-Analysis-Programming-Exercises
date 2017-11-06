@@ -1,6 +1,6 @@
 # Programming Exercises for the Analysis of Knowledge Graphs
 
-<img align="right" src="http://sda.cs.uni-bonn.de/wp-content/uploads/2017/10/Smart-Data-Analytics.png" width="250px" />(http://sda.tech)
+<img align="right" src="http://sda.cs.uni-bonn.de/wp-content/uploads/2017/10/Smart-Data-Analytics.png" width="250px" />
 
 This is a repository, which allows interested students and researchers to perform hands-on analysis of knowledge graphs. It is primarily developed as part of the knowledge graph analysis lecture of the [SDA Group](http://sda.tech) at the University of Bonn. However, the material itself is also useful for anyone else.
 
