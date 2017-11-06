@@ -1,6 +1,6 @@
 # Programming Exercises for the Analysis of Knowledge Graphs
 
-This is a repository, which allows interested students and researchers to perform hands-on analysis for the analysis of knowledge graphs. It is primarily developed as part of the knowledge graph analysis lecture at the University of Bonn. However, the material is also useful for external people.
+This is a repository, which allows interested students and researchers to perform hands-on analysis of knowledge graphs. It is primarily developed as part of the knowledge graph analysis lecture at the University of Bonn. However, the material itself is also useful for anyone else.
 
 ## Knowledge Graphs - Things, not Strings!
 
