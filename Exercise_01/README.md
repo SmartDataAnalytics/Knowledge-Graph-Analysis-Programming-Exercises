@@ -9,20 +9,29 @@ The first dataset contains 35 triples in turtle serialization and bring us some 
 We are asked to write queries to answer the following questions:
 
 1- Names of all movies.
+
 2- Names ofmovies and directors sorted descending by the year themovie appeared.
+
 3- Names and directors of all movies before 1996.
+
 4- Names all movies whose genre is Crime.
+
 5- Names of all actors who are above 50 (at 2016).
+
 6- Names of all movies whose directors are above 70 (at 2016).
 
 The second dataset contains 12 triples in turtle about astronomical objects. 
 We are asked to answer the following questions by writing SPARQL queries on this dataset:
 
 1- Object circling around the sun or a satellite of the sun.
+
 2- Objects having a satellite with an English name.
+
 3- Objects having a satellite which are themselves satellite of another object.
+
 4- Objects having a satellite with an English name, which are also satellite of another object
 with more than 3000 kilometers diameter.
+
 5- Objects with two ormore satellites (you can assume that differentURIs refer to different
 objects).
 
@@ -46,55 +55,83 @@ Working with this interface is quite easy and straightforward by just writing qu
 In this part we are asked to answer these question based on DBpedia dataset, with defined classes and relations in DBpedia name sapaces:
 
 a) How tall is Claudia Schiffer?
+
 • Classes: –
+
 • Properties: dbo:height
+
 • Individuals: res:Claudia_Schiffer
 
 b) Give me all female Russian astronauts.
+
 • Classes: yago:RussianCosmonauts, yago:FemaleAstronauts
+
 • Properties: –
+
 • Individuals: –
 
 c) How many monarchical countries are there in Europe?
+
 • Classes: yago:EuropeanCountries
+
 • Properties: dbo:governmentType
+
 • Individuals: –
 
 d) Which states of Germany are governed by the Social Democratic Party?
+
 • Classes: yago:StatesOfGermany
+
 • Properties: dbp:rulingParty
+
 • Individuals: res:Social_Democratic_Party_of_Germany
 
 e) Which monarchs of the United Kingdom were married to a German?
+
 • Classes: yago:MonarchsOfTheUnitedKingdom
+
 • Properties: dbo:spouse, dbo:birthPlace
+
 • Individuals: res:Germany
 
 f ) Which countries have places with more than two caves?
+
 • Classes: dbo:Cave, dbo:Country
+
 • Properties: dbo:location
+
 • Individuals:
 
 g) Give me all cities in New Jersey with more than 100000 inhabitants.
+
 • Classes: dbo:City
+
 • Properties: dbo:isPartOf, dbp:populationTotal
+
 • Individuals: res:New_Jersey
 
 h) Is proinsulin a protein?
+
 • Classes: dbo:Protein
+
 • Properties: –
+
 • Individuals: res:Proinsulin
 
 i) Is Frank Herbert still alive?
+
 • Classes: –
+
 • Properties: dbo:deathDate
+
 • Individuals: res:Frank_Herbert
 
 j) Which mountain is the highest after the Annapurna?
+
 • Classes: dbo:Mountain
+
 • Properties: dbo:elevation
+
 • Individuals: res:Annapurna
-
-
  
 
