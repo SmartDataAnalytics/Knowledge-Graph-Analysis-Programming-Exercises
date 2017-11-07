@@ -7,6 +7,7 @@ data from asumed datasets which are curated by ourself.
 The first dataset contains 35 triples in turtle serialization and bring us some facts 
 (relations among data and information about data entities) about some movies.
 We are asked to write queries to answer the following questions:
+
 • Names of all movies.
 • Names ofmovies and directors sorted descending by the year themovie appeared.
 • Names and directors of all movies before 1996.
@@ -15,8 +16,9 @@ We are asked to write queries to answer the following questions:
 • Names of all movies whose directors are above 70 (at 2016).
 
 The second dataset contains 12 triples in turtle about astronomical objects. 
-• We are asked to answer the following questions by writing SPARQL queries on this dataset:
-Object circling around the sun or a satellite of the sun.
+We are asked to answer the following questions by writing SPARQL queries on this dataset:
+
+• Object circling around the sun or a satellite of the sun.
 • Objects having a satellite with an English name.
 • Objects having a satellite which are themselves satellite of another object.
 • Objects having a satellite with an English name, which are also satellite of another object
