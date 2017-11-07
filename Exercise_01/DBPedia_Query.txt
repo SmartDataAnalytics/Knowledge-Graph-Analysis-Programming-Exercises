@@ -1,9 +1,14 @@
 
-############Question 4###############
+############DBpedia###############
 
-##4-a##
+##a##
+--Question--
+How tall is Claudia Schiffer?
+• Classes: –
+• Properties: dbo:height
+• Individuals: res:Claudia_Schiffer
+
 --Query--
-
 PREFIX res:<http://dbpedia.org/resource/>
 PREFIX dbo:<http://dbpedia.org/ontology/>
 SELECT DISTINCT ?height
@@ -20,7 +25,13 @@ res:Claudia_Schiffer dbo:height ?height .
 
 
 
-##4-b##
+##b##
+--Question--
+Give me all female Russian astronauts.
+• Classes: yago:RussianCosmonauts, yago:FemaleAstronauts
+• Properties: –
+• Individuals: –
+
 --Query--
 PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
@@ -43,7 +54,13 @@ WHERE {
 
 
 
-##4-c##
+##c##
+--Question--
+How many monarchical countries are there in Europe?
+• Classes: yago:EuropeanCountries
+• Properties: dbo:governmentType
+• Individuals: –
+
 --Query--
 PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
@@ -64,7 +81,13 @@ FILTER regex(?govern ,'monarchy') .
 
 
 
-##4-d##
+##d##
+--Question--
+Which states of Germany are governed by the Social Democratic Party?
+• Classes: yago:StatesOfGermany
+• Properties: dbp:rulingParty
+• Individuals: res:Social_Democratic_Party_of_Germany
+
 --Query--
 PREFIX res:<http://dbpedia.org/resource/>
 PREFIX dbp:<http://dbpedia.org/property/>
@@ -98,9 +121,14 @@ UNION
 
 
 
-##4-e##
---Query--
+##e##
+--Question--
+Which monarchs of the United Kingdom were married to a German?
+• Classes: yago:MonarchsOfTheUnitedKingdom
+• Properties: dbo:spouse, dbo:birthPlace
+• Individuals: res:Germany
 
+--Query--
 PREFIX res:<http://dbpedia.org/resource/>
 PREFIX dbo:<http://dbpedia.org/ontology/>
 PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -119,7 +147,13 @@ No result
 
 
 
-##4-f##
+##f##
+--Question--
+Which countries have places with more than two caves?
+• Classes: dbo:Cave, dbo:Country
+• Properties: dbo:location
+• Individuals:-
+
 --Query--
 PREFIX dbo:<http://dbpedia.org/ontology/>
 PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -162,7 +196,13 @@ HAVING(COUNT(?cave ) > 2)
 
 
 
-##4-g##
+##g##
+--Question--
+Give me all cities in New Jersey with more than 100000 inhabitants.
+• Classes: dbo:City
+• Properties: dbo:isPartOf, dbp:populationTotal
+• Individuals: res:New_Jersey
+
 --Query--
 PREFIX dbo:<http://dbpedia.org/ontology/>
 PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -190,7 +230,13 @@ FILTER(?inhabitants > 100000)
 
 
 
-##4-h##
+##h##
+--Question--
+Is proinsulin a protein?
+• Classes: dbo:Protein
+• Properties: –
+• Individuals: res:Proinsulin
+
 --Query--
 PREFIX dbo:<http://dbpedia.org/ontology/>
 PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -205,7 +251,13 @@ true
 
 
 
-##4-i##
+##i##
+--Question--
+Is Frank Herbert still alive?
+• Classes: –
+• Properties: dbo:deathDate
+• Individuals: res:Frank_Herbert
+
 --Query--
 PREFIX dbo:<http://dbpedia.org/ontology/>
 PREFIX res:<http://dbpedia.org/resource/>
@@ -219,7 +271,13 @@ false
 
 
 
-##4-j##
+##j##
+--Question--
+Which mountain is the highest after the Annapurna?
+• Classes: dbo:Mountain
+• Properties: dbo:elevation
+• Individuals: res:Annapurna
+
 --Query--
 PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>

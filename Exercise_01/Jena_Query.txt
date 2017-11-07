@@ -1,6 +1,9 @@
 
-**********************Question 4***********************
-**4-1**
+**********************Movie dataset***********************
+**1**
+--Question--
+Names of all movies.
+
 --Query--
 PREFIX ex:<http://example.org/movies/>
 PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
@@ -21,7 +24,10 @@ WHERE{
 
 
 
-**4-2**
+**2**
+--Question--
+Names ofmovies and directors sorted descending by the year themovie appeared.
+
 --Query--
 PREFIX ex:<http://example.org/movies/>
 PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
@@ -44,7 +50,10 @@ ORDER BY DESC(?year)
 
 
 
-**4-3**
+**3**
+--Question--
+Names and directors of all movies before 1996.
+
 --Query--
 PREFIX ex:<http://example.org/movies/>
 PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
@@ -68,7 +77,10 @@ FILTER(?year <= "1996"^^xsd:gYear)
 
 
 
-**4-4**
+**4**
+--Question--
+Names all movies whose genre is Crime.
+
 --Query--
 PREFIX ex:<http://example.org/movies/>
 PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
@@ -89,7 +101,10 @@ WHERE {
 
 
 
-**4-5**
+**5**
+--Question--
+Names of all actors who are above 50 (at 2016).
+
 --Query--
 PREFIX ex:<http://example.org/movies/>
 PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
@@ -114,7 +129,10 @@ FILTER(?year<"1966"^^xsd:gYear)
 
 
 
-**4-6**
+**6**
+--Question--
+Names of all movies whose directors are above 70 (at 2016).
+
 --Query--
 PREFIX ex:<http://example.org/movies/>
 PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -140,8 +158,11 @@ FILTER(?year<="1946"^^xsd:gYear)
 
 
 
-********************Question 5***********************
-**5-1**
+********************Astronomical dataset***********************
+**1**
+--Question--
+Object circling around the sun or a satellite of the sun.
+
 --Query--
 PREFIX ex:<http://example.org/planets/>
 SELECT ?object 
@@ -165,7 +186,10 @@ WHERE
 
 
 
-**5-2**
+**2**
+--Question--
+Objects having a satellite with an English name.
+
 ---Hint: I did some changes in the dataset to have a result.
 1- I took out @en and @de from qoutation to make them meaningful and for sure to make reasonable comparisons, I think it was mistaken in last version.
 2- I changed ex:Mond to ex:Moon. Because in one triple ex:Moon is the subject and in the othe other one ex:Mond is mentioned as object. But, both points on one entity with different names. 
@@ -187,7 +211,10 @@ FILTER (lang(?name)='en')}
 
 
 
-**5-3**
+**3**
+--Question--
+Objects having a satellite which are themselves satellite of another object.
+
 --Query--
 PREFIX ex:<http://example.org/planets/>
 SELECT ?object
@@ -207,7 +234,11 @@ WHERE {
 
 
 
-**5-4**
+**4**
+--Question--
+Objects having a satellite with an English name, which are also satellite of another object
+with more than 3000 kilometers diameter.
+
 --Query--
 PREFIX ex:<http://example.org/planets/>
 SELECT ?object
@@ -228,7 +259,11 @@ FILTER(?radius >= 1500).}
 
 
 
-**5-5**
+**5**
+--Question--
+Objects with two ormore satellites (you can assume that differentURIs refer to different
+objects).
+
 --Query--
 PREFIX ex:<http://example.org/planets/>
 SELECT ?object
