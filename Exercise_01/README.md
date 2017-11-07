@@ -8,22 +8,22 @@ The first dataset contains 35 triples in turtle serialization and bring us some 
 (relations among data and information about data entities) about some movies.
 We are asked to write queries to answer the following questions:
 
-• Names of all movies.
-• Names ofmovies and directors sorted descending by the year themovie appeared.
-• Names and directors of all movies before 1996.
-• Names all movies whose genre is Crime.
-• Names of all actors who are above 50 (at 2016).
-• Names of all movies whose directors are above 70 (at 2016).
+1- Names of all movies.
+2- Names ofmovies and directors sorted descending by the year themovie appeared.
+3- Names and directors of all movies before 1996.
+4- Names all movies whose genre is Crime.
+5- Names of all actors who are above 50 (at 2016).
+6- Names of all movies whose directors are above 70 (at 2016).
 
 The second dataset contains 12 triples in turtle about astronomical objects. 
 We are asked to answer the following questions by writing SPARQL queries on this dataset:
 
-• Object circling around the sun or a satellite of the sun.
-• Objects having a satellite with an English name.
-• Objects having a satellite which are themselves satellite of another object.
-• Objects having a satellite with an English name, which are also satellite of another object
+1- Object circling around the sun or a satellite of the sun.
+2- Objects having a satellite with an English name.
+3- Objects having a satellite which are themselves satellite of another object.
+4- Objects having a satellite with an English name, which are also satellite of another object
 with more than 3000 kilometers diameter.
-• Objects with two ormore satellites (you can assume that differentURIs refer to different
+5- Objects with two ormore satellites (you can assume that differentURIs refer to different
 objects).
 
 To check the validity of our queries and also finding the results, we can use Jena Fuseki.
