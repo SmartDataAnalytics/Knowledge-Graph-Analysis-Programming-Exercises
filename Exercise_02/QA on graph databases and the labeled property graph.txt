@@ -1,0 +1,19 @@
+// Q1
+What is the difference between Labels and Properties in labeled property graphs? 
+
+* Labels are simple strings and assigned in order to group nodes (and query them ef?ciently). 
+* Properties are key value pairs and assigned to a single node.
+
+What are disadvantages and advantages of relational databases compared to graph databases?
+
+* Disadvantages of relational databases: 
+
+a) Relationships exist only between tables. / Relationships are not ?rst class citizens in the relational datamodel. 
+b) Relationship traversal can become very expensive. 
+c) It is bounded by aprevious schema.
+
+* Disadvantagesofgraphdatabases: 
+a) Not optimised for queries with no clear starting point.
+b) Often not optimised for large batch analytics in which expensive joins (as an RDBMS does it) need to be performed for all entities anyway
+
+
