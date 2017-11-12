@@ -20,7 +20,7 @@ Each individual exercise contains a description of tasks and background. We firs
 
 * [Exercise 1:  RDF Databases](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_01)
 * Exercise 2: Property Graph Databases
-* Exercise 3: Introduction to Statistical Relational Learning (SRL)
+* [Exercise 3: Introduction to Statistical Relational Learning (SRL)] (https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_01)
 * Exercise 4: Tensors and Tensor Factorisation Techniques
 * Exercise 5: Alternating Least Squares (ALS) and Stochastic Gradient Descent (SGD)
 * Exercise 6: Introduction to Neural Networks
@@ -37,7 +37,7 @@ Please use the issue tracker for reporting problems and suggesting improvements.
 
 * [Prof. Dr. Jens Lehmann](http://jens-lehmann.org/)
 * Dr. Asja Fischer
-* Asif Khan
+* [Asif Khan] (https://sites.google.com/view/mak4086)
 * Mehrdad Bozorg
 * Firas Kassawat
 
