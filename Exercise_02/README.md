@@ -29,7 +29,7 @@ CREATE
   (Anne)-[:child]->(Nick)
 ;
 
-![Neo4j graph 1](https://raw.githubusercontent.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/master/Material/Exercise_02/graph.png "Neo4j graph 1")
+![Neo4j graph 1](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_02/graph.png "Neo4j graph 1")
 
 
 ## Contributing and Feedback
