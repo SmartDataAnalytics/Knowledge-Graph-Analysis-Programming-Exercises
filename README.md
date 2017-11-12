@@ -37,7 +37,7 @@ Please use the issue tracker for reporting problems and suggesting improvements.
 
 * [Prof. Dr. Jens Lehmann](http://jens-lehmann.org/)
 * Dr. Asja Fischer
-* [Asif Khan] (https://sites.google.com/view/mak4086)
+* [Asif Khan](https://sites.google.com/view/mak4086)
 * Mehrdad Bozorg
 * Firas Kassawat
 
