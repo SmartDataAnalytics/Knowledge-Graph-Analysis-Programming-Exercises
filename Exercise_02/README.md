@@ -17,9 +17,9 @@ CREATE (Jacob:Person {name:'Jacob'})
 CREATE (Nick:Person {name:'Nick',age:'3'})
 CREATE (Alex:Person {name:'Alex'})
 CREATE
-  (Anne)-[:knows {since:['1998']}]->(Alex),
-  (Helen)-[:knows {since:['2001']}]->(Anne),
-  (Friedhelm)-[:knows {since:['2000']}]->(Jacob),
+  (Anne)-[:knows {since:1998}]->(Alex),
+  (Helen)-[:knows {since:2001}]->(Anne),
+  (Friedhelm)-[:knows {since:2000}]->(Jacob),
   (Friedhelm)-[:likes]->(Helen),
   (Helen)-[:likes]->(Friedhelm),
   (Friedhelm)-[:likes]->(Literature),
@@ -31,6 +31,40 @@ CREATE
 ```
 ![Neo4j graph 1](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_02/graph.png "Neo4j graph 1")
 
+Question 2: Answering queries
+
+a) Find someone who can play tennis with Anne ?
+
+```
+Match (n:Person)
+where (n:Person)-[:plays]->(:Hobby{name:'Tennis'}) 
+     Or (n:Person)-[:likes]->(:Hobby{name:'Tennis'}) 
+     And Not (n.name= "Anne")
+return n
+```
+b) Find people who knew each other already in 1990 ?
+
+```
+Match (n:Person)-[k:knows]->(x:Person)
+where k.since>1990
+return n,x
+```
+
+c) Helen can’t stand children, so with whom may she lose her contact ?
+
+```
+Match (:Person{name:'Helen'})-[:knows]->(x:Person)
+Match (x:Person)-[:child]->(:Person)
+return x
+```
+d) Who may get into a relationship based on mutual interest ?
+
+```
+Match (n:Person)-[:likes]->(x:Person)
+Match (x:Person)-[:likes]->(n:Person)
+return n,x
+```
+Question 3: Is found in the accompanied file
 
 ## Contributing and Feedback
 
