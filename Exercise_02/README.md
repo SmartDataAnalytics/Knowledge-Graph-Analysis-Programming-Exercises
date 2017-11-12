@@ -7,7 +7,7 @@ This is a repository, which allows interested students and researchers to perfor
 ## Exercise 2: Property Graph Databases
 
 Question 1: Creating the Knowledge graph of people and their hobbies
-'''
+```
 CREATE (Tennis:Hobby {name:'Tennis'})
 CREATE (Literature:Hobby {name:'Literature'})
 CREATE (Anne:Person {name:'Anne'})
@@ -28,7 +28,7 @@ CREATE
   (Jacob)-[:plays]->(Tennis),
   (Anne)-[:child]->(Nick)
 ;
-'''
+```
 ![Neo4j graph 1](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_02/graph.png "Neo4j graph 1")
 
 
