@@ -19,8 +19,8 @@ The two knowledge representation formalisms for knowledge graphs, which are used
 Each individual exercise contains a description of tasks and background. We first start with the formalisms to create an query knowledge graphs and then proceed with relational learning methods.
 
 * [Exercise 1:  RDF Databases](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_01)
-* Exercise 2: Property Graph Databases
-* [Exercise 3: Introduction to Statistical Relational Learning (SRL)] (https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_01)
+* [Exercise 2: Property Graph Databases](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_02)
+* [Exercise 3: Introduction to Statistical Relational Learning (SRL)](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_03)
 * Exercise 4: Tensors and Tensor Factorisation Techniques
 * Exercise 5: Alternating Least Squares (ALS) and Stochastic Gradient Descent (SGD)
 * Exercise 6: Introduction to Neural Networks
