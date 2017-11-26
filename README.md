@@ -21,7 +21,7 @@ Each individual exercise contains a description of tasks and background. We firs
 * [Exercise 1:  RDF Databases](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_01)
 * [Exercise 2: Property Graph Databases](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_02)
 * [Exercise 3: Introduction to Statistical Relational Learning (SRL)](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_03)
-* [Exercise 4: Tensors and Tensor Factorisation Techniques](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_04/Exercise-4.ipynb)
+* [Exercise 4: Tensors and Tensor Factorisation Techniques](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_04)
 * Exercise 5: Alternating Least Squares (ALS) and Stochastic Gradient Descent (SGD)
 * Exercise 6: Introduction to Neural Networks
 * Exercise 7: Neural Networks for Knowledge Graph Analysis
