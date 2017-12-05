@@ -8,11 +8,11 @@ This exercise is an introduction to deep learning framework pytorch and Bilinear
 
 ## Exercise Overview
 
-* Exercise 5.1: Introduction to Deep Learning Framework: Pytorch
-* Exercise 5.2: Bilinear RESCAL using SGD
-* Exercise 5.3: Latent Representation Visualization
-* Exercise 5.4: Parameter Tuning
-
+* Exercise 5.1: Introduction to Deep Learning Framework: Pytorch.
+* Exercise 5.2: Bilinear RESCAL using SGD. Effect of learning rate and momentum on convergence.
+* Exercise 5.3: Latent Representation Visualization.
+* Exercise 5.4: Parameter Tuning.
+* Exercise 5.5: Implement a simple MLP with PyTorch.
 ## Requirements
 
 * Python 3.5+
