@@ -6,9 +6,9 @@ This exercise is an introduction to neural network for statistical relational le
 
 
 ## Exercise Overview 
-* Exercise 6-1: E-MLP.
-* Exercise 6-2: ER-MLP.
-* Exercise 6-3: NTN.
+* [Exercise 6-1: E-MLP.](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_06/E-MLP.ipynb)
+* [Exercise 6-2: ER-MLP.](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_06/ER-MLP.ipynb)
+* [Exercise 6-3: NTN.](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_06/NTN.ipynb)
 
 ## Task
 * Task 6-1: Ranking-loss Evaluation.
