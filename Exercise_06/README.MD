@@ -10,10 +10,13 @@ This exercise is an introduction to neural network for statistical relational le
 * Exercise 6-2: ER-MLP.
 * Exercise 6-3: NTN.
 
-## Some Task (At-Home Exercise) 
-* Task 6-1: Effect function.
-* Task 6-2: Different Evaluation Metrics.
-* Task 6-3: NTN.
+## Task
+* Task 6-1: Ranking-loss Evaluation.
+* Task 6-2.1: Evaluation Metric Selection.
+* Task 6-2.2: Nearest Neighbor Analysis.
+* Task 6-3.1: Embedding Visualization.
+* Task 6-3.2: Link Correction.
+* Task 6-3.3: WordNet Evaluation.
 
 ## Requirements
 * Python 3.5+
@@ -22,4 +25,5 @@ This exercise is an introduction to neural network for statistical relational le
 ## References
 * [A Review of Relational Machine Learning for Knowledge Graphs](https://arxiv.org/pdf/1503.00759.pdf)
 * [Knowledge Vault: A Web-Scale Approach to Probabilistic Knowledge Fusion](https://www.cs.ubc.ca/~murphyk/Papers/kv-kdd14.pdf)
+* [Reasoning With Neural Tensor Networks for Knowledge Base Completion](https://nlp.stanford.edu/pubs/SocherChenManningNg_NIPS2013.pdf)
 
