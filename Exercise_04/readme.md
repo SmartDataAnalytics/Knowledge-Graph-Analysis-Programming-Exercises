@@ -18,3 +18,11 @@ This exercise is an introduction to tensors and latent representation. We start 
 * Python 3.5+
 * [scikit-kge](https://github.com/mnick/scikit-kge) 
 * [rescal.py](https://github.com/mnick/rescal.py)
+
+
+
+## References
+
+* [A Three-Way Model for Collective Learning on Multi-Relational Data](http://www.icml-2011.org/papers/438_icmlpaper.pdf)
+* [scikit-kge](https://github.com/mnick/scikit-kge)
+* [rescal](https://github.com/mnick/rescal.py)

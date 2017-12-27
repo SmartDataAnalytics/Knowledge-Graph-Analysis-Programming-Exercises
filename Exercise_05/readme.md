@@ -23,3 +23,11 @@ This exercise is an introduction to deep learning framework pytorch and Bilinear
 ## Requirements
 * Python 3.5+
 * Pytorch 0.2 
+
+## References
+* [Pytorch](http://pytorch.org/)
+* [Tsne Visualization](https://lvdmaaten.github.io/tsne/)
+* [A Review of Relational Machine Learning for Knowledge Graphs](https://arxiv.org/pdf/1503.00759.pdf)
+
+
+

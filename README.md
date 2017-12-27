@@ -23,7 +23,7 @@ Each individual exercise contains a description of tasks and background. We firs
 * [Exercise 3: Introduction to Statistical Relational Learning (SRL)](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_03)
 * [Exercise 4: Tensors and Tensor Factorization Techniques](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_04)
 * [Exercise 5: Introduction to Neural Networks and Bilinear RESCAL](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_05)
-* [Exercise 6: Neural Networks for Statistical Relational Learning]((https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_06))
+* [Exercise 6: Neural Networks for Statistical Relational Learning](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/tree/master/Exercise_06)
 * Exercise 7: Neural Networks for Knowledge Graph Analysis
 * Exercise 8: Latent Distance and Graph Feature Models	
 * Exercise 9: Markov Logic Networks
