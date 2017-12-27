@@ -12,13 +12,13 @@ This exercise is an introduction to deep learning framework pytorch and Bilinear
 * Exercise 5-a: Introduction to Deep Learning Framework: Pytorch.
 * Exercise 5-b: Bilinear RESCAL and Stochastic Gradient Descent (SGD).
 
-## Some Task (At-Home Exercise) 
-* Exercise 5-a-1: Linear Regression for Non Linear Data.
-* Exercise 5-a-2: Implement XOR Function.
-* Exercise 5-a-3: Implement MLP for MNIST Dataset.
-* Exercise 5-b-1: Effect of learning rate and momentum on convergence.
-* Exercise 5-b-2: Parameter Tuning for RESCAL.
-* Exercise 5-b-3: Implement CP and TUCKER.
+## Task 
+* Task 5-a-1: Linear Regression for Non Linear Data.
+* Task 5-a-2: Implement XOR Function.
+* Task 5-a-3: Implement MLP for MNIST Dataset.
+* Taske 5-b-1: Effect of learning rate and momentum on convergence.
+* Task 5-b-2: Parameter Tuning for RESCAL.
+* Task 5-b-3: Implement CP and TUCKER.
 
 ## Requirements
 * Python 3.5+
