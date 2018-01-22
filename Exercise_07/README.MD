@@ -6,9 +6,9 @@ In this exercise we study two latent distance models and some widely used graph 
 
 
 ## Exercise Overview 
-* [Exercise 7-1: StructuredE.](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_06/E-MLP.ipynb)
-* [Exercise 7-2: TransE.](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_06/ER-MLP.ipynb)
-* [Exercise 7-3: Graph Similarity Measures.](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_06/NTN.ipynb)
+* [Exercise 7-1: StructuredE.](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_07/StructuredE.ipynb)
+* [Exercise 7-2: TransE.](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_07/TransE.ipynb)
+* [Exercise 7-3: Graph Similarity Measures.](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_07/GraphSimilarity.ipynb)
 
 ## Task
 * Task 7-1: Nearest Neighbor Analysis.
