@@ -6,8 +6,8 @@ In this exercise we study Markov Logic Networks for two small knowledge graphs.
 
 
 ## Exercise Overview 
-* [Exercise 8-1: Introduction to MLN.](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_07/StructuredE.ipynb)
-* [Exercise 8-2: Problem 4 of exercise sheet.](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_07/TransE.ipynb)
+* [Exercise 8-1: Introduction to MLN.](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_08/IntroMLN.ipynb)
+* [Exercise 8-2: Problem 4 of exercise sheet.](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises/blob/master/Exercise_08/Problem4.ipynb)
 
 ## Requirements
 * Python 3.5+
